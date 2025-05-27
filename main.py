@@ -3,7 +3,6 @@ from matplotlib import pyplot as plt
 from scipy.optimize import minimize
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-from sklearn.datasets import load_wine
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from sklearn.decomposition import PCA
